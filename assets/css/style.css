@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+h1, h2, p{
+    color: #fff;
+}
+
+main{
+   background: url('../images/Mlp_Hero_Br_&_Rola_Desktop_v2.jpg');
+   width: 100vw;
+   height: 100vh;
+   background-size: cover;
+}
+
+.container{
+    padding-top: 16rem;
+    padding-left: 5rem;
+}
+
+.content{
+    display: flex;
+    align-items:flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.main_text{
+    margin: 1% 0;
+    padding-right: 75rem;
+    font-size: 3.5em;
+}
+
+
+.teste{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.teste-2{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.btn{
+     background-color: blue;
+     padding: 1.25rem 6rem;
+     border-radius: 5px;
+     margin-top: 0.5rem;
+ }
+
+ .btn:last-of-type{ 
+    margin-left: 2rem;
+}
+
+.text h2{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.text p{
+  font-size: 0.4em; 
+  margin-right: 12.5rem;
+}
+
+.text p:last-of-type{
+    margin-bottom: 0.3rem;
+  }
+
+.teste .gg{
+    margin-left: 0%;
+}
+
+.text .text_end{
+    margin: 5rem 0 5rem 0;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.logo{
+    width: 9vw;
+}
+
+.content .logo_brands{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 34vw;
+}
+
+.end{
+    margin-top: 12rem;
+}
