@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, p{
+    color: #fff;
+}
+
+main{
+   background: url('../images/Mlp_Hero_Br_&_Rola_Desktop_v2.jpg');
+   background-size: cover;
+
+   width: 100vw;
+   height: 100vh;
+}
+
+.container__main__section{
+    padding-top: 12rem;
+    padding-left: 5rem;
+}
+
+.container__main__section .log__in{
+    display: flex;
+    justify-content: flex-end;
+    
+    position: relative;
+    bottom: 11rem;
+    right: 2rem;
+}
+
+.container__main__section .log__in button{
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    background-color: #1e2027;
+
+    padding: 0.65rem 0.875rem;
+  
+    transition: 300ms;
+}
+
+.container__main__section .log__in button:hover{
+    background-color: #fff;
+}
+
+.container__main__section .log__in a:hover{
+    color: #1e2027;
+}
+
+.container__main__section .log__in a{
+    color: #fff;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 1.25em;
+   
+    letter-spacing: 0.12rem;
+}
+
+.content{
+    display: flex;
+    align-items:flex-start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.main_text{
+    margin: 1% 0;
+
+    padding-right: 75rem;
+
+    font-size: 3.5em;
+}
+
+
+.teste{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.teste-2{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.btn{
+     background-color: #0063e5;
+     color: #fff;
+
+     padding: 1rem 5rem;
+
+     border-radius: 5px;
+
+     margin-top: 0.5rem;
+     
+     text-decoration: none;
+
+     font-size: 1.5em;
+ }
+
+ .btn:last-of-type{ 
+    margin-left: 2rem;
+}
+
+.btn:hover{
+    background-color: #0285f7;
+    color: #000;
+}
+
+.text h2{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.text p{
+  font-size: 0.650em; 
+
+  margin-right: 12.5rem;
+  margin-bottom: 0.1rem;
+
+  color: #a5a6a9;
+}
+
+.text .teste .p_year{
+    margin-left: -2.8rem;
+  }
+
+.teste .gg{
+    margin-left: 0%;
+}
+
+.text .text_end{
+    margin: 1.25rem 0 1rem 0;
+
+    font-size: 0.8em;
+
+    color: gray;
+}
+
+.logo{
+    width: 9vw;
+}
+
+.content .logo_brands{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    width: 34vw;
+}
+
+.end{
+    margin-top: 12rem;
+}
+
+
+/*=================================== SECTION 2 ===================================*/
+.container__section__about{
+    padding: 5rem 3rem;
+
+    background-color: #040714;
+}
+
+.container__section__about .background__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2rem 7rem;
+}
+
+.container__section__about .background__section .section__row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;   
+
+    margin-right: 5rem;
+}
+
+.container__section__about .background__section .section__row h1{
+    margin: 0 0 2rem 0;
+
+    line-height: 50.4px;
+
+    font-size: 42px;
+}
+
+.container__section__about .background__section .section__row p{
+    margin: 0 0 2rem 0;
+
+    line-height: 30px;
+
+    font-size: 20px;
+
+    color: rgba(192, 192, 192, 0.8);
+}
+
+.container__section__about .background__section .image__section__about{
+    width: 50rem;
+}
+/*=================================== SECTION 2 ===================================*/
+.section__row__exclusive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-bottom: 2.5rem;
+
+    padding-top: 2rem;
+}
+.section__row__exclusive h1{
+    color: #f9f9f9;
+
+    line-height: 50.4px;
+
+    font-size: 2.625em;
+    font-weight: 700;
+
+    padding-bottom: 2rem;
+}
+.section__row__exclusive p{
+    color:#c0c0c0;
+
+    font-size: 1.25em;
+
+    line-height: 30px;
+}
+
+.container__section__exclusives{
+    background-color: #040714;
+}
+.section__row__images .row{
+  margin: 1.5rem 0;
+}
+
+.section__row__images img{
+    width: 100%;
+
+    border-radius: 5px;
+}
+
+.button__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   padding: 10rem 0;
+}
+
+.btn__section__exclusive{
+    background-color: #0063e5;
+    color: #fff;
+
+    padding: 1rem 7rem;
+
+    border-radius: 5px;
+
+    margin-top: 0.5rem;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 1.125em;
+}
+
+.btn__section__exclusive:hover{
+   background-color: #0285f7;
+   color: #000;
+}
+/* LION KING SECTION */
+.section__lion__king{
+   background-color: #040714;
+   padding: 0 12rem;
+}
+.section__lion__king img{
+   width: 100%;
+   height: 50%;
+}
+.text__image__lion__king{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 24rem;
+    left: 45rem;
+}
+.text__image__lion__king h1{
+    font-size: 2.625em;
+
+    margin-bottom: 2rem;
+}
+.text__image__lion__king p{
+    font-size: 1.25em;
+
+    width: 42%;
+
+    color:#c0c0c0;
+
+    line-height: 30px;
+}
