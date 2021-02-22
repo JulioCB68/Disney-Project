@@ -121,3 +121,41 @@ h3{
    background-color: #0285f7;
    color: #000;
 }
+
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #000000;
+    color: #cacaca;
+
+    font-size: 12px;
+}
+
+.footer__logo{
+    width: 4vw;
+
+    margin: 2rem 0 1rem 0;
+}
+
+.terms{
+    display: flex;
+}
+
+.terms p{
+    margin: 0.5rem;
+}
+
+.footer__container .subscribed{
+    width: 26.8%;
+   
+    margin: 1rem 0;
+
+    margin-left: 1rem;
+}
+
+.footer__container .rights__reserved{
+    margin-bottom: 1.25rem;
+}
