@@ -258,7 +258,7 @@ main{
     align-items: center;
     justify-content: center;
 
-   padding: 10rem 0;
+   padding: 10rem 0 0 0;
 }
 
 .btn__section__exclusive{
@@ -311,4 +311,153 @@ main{
     color:#c0c0c0;
 
     line-height: 30px;
+}
+/*=================================== SECTION 2 ===================================*/
+.section__row__exclusive__two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-bottom: 2.5rem;
+
+    padding-top: 2rem;
+}
+.section__row__exclusive__two h1{
+    color: #f9f9f9;
+
+    line-height: 50.4px;
+
+    font-size: 2.625em;
+    font-weight: 700;
+
+    padding-bottom: 2rem;
+}
+.section__row__exclusive__two p{
+    color:#c0c0c0;
+
+    font-size: 1.25em;
+
+    line-height: 30px;
+
+    text-align: center;
+}
+
+.container__section__exclusives__two{
+    background-color: #040714;
+    padding-bottom: 10rem ;
+}
+.section__row__images__two .row{
+  margin: 1.5rem 0;
+}
+
+.section__row__images__two img{
+    width: 100%;
+
+    border-radius: 5px;
+}
+/*=================================== SECTION 2 ===================================*/
+.container__devices{
+    background-color: #040714;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-bottom: 2.5rem;
+
+    padding-top: 2rem;
+}
+
+.img__devices{
+    width: 10vw;
+    margin-bottom: 1rem;
+}
+
+.container__devices h1{
+    text-align: center;
+
+    font-size: 2.5em;
+
+    margin: 0 0 5rem 0;
+}
+
+.devices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devices h3{
+    margin: 24px 0px;
+    line-height: 30px;
+    font-size: 1.375em;
+    color:#f9f9f9;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.container__devices .devices p{
+    margin: 0.3rem 0;
+    line-height: 30px;
+    font-size: 1.25em;
+    color:#c0c0c0;
+}
+
+.container__devices .btn__devices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 27%;
+
+    background-color: #0063e5;
+    color: #fff;
+
+    padding: 1.25rem 0rem;
+
+    border-radius: 5px;
+
+    margin: 5rem auto;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 1.125em;
+
+    text-align: center;
+}
+/*=================================== SECTION 2 ===================================*/
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #040714;
+}
+
+.footer__container p{
+    font-size: 12px;
+    color: #c0c0c0;
+    margin: 1rem;
+    }
+
+    .footer__logo{
+        width: 4.25vw;
+        padding-bottom: 0.5rem;
+    }
+
+.terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__container .subscribed{
+    width: 57%;
+    text-align: center;
+    padding-bottom: 2rem;
 }
